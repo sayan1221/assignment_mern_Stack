@@ -1,0 +1,126 @@
+.body {
+    margin: 10px 20px;
+    /* border: solid 2px; */
+}
+
+.card {
+    --tw-shadow-color: rgb(129 127 129 / 50%);
+}
+
+.title {
+    /* background-color: blueviolet;
+    border-radius: ; */
+}
+
+.button {
+    /* border-color:rgb(224 176 239); */
+    height: 80px;
+    background-color: rgb(232 231 235 / 84%);
+    /* width: 25%; */
+    color: black;
+    font-weight: bold;
+    border-radius: 100%;
+}
+
+.button:hover {
+    -ms-transform: scale(1);
+    /* IE 9 */
+    -webkit-transform: scale(1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11);
+    border-color: rgb(34, 34, 115);
+}
+
+
+.heading {
+    text-align: center;
+    background: yellow;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.newsImg {
+    width: auto;
+    height: 45px;
+    margin: auto;
+}
+
+
+
+
+@media only screen and (max-width: 380px) {
+    .container_btn {
+        /* background-color: lightblue; */
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 380px) {
+    .container_btn {
+        /* background-color: lightblue; */
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+    .container_btn {
+        /* background-color: lightblue; */
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+}
+
+
+
+/* profile .......................... */
+.border_radious {
+    border-radius: 40px 0;
+    border:2px solid rgb(100 103 238);
+    padding: 2px 20px;
+}
+.border_radious:hover{
+    background: rgb(21, 160, 51);
+    border-color: rgb(5, 5, 5);
+    color: white;
+}
+.round_btn{
+    border-radius: 20px;
+    margin-bottom: 5px;
+    
+}
+.round_btn:hover{
+    background: rgb(232, 48, 66);
+    border-color: rgb(239, 239, 44);
+    color: white;
+}
+
+.round_green_btn{
+    border-radius: 20px;
+    margin-bottom: 5px;
+    padding: 5px 25px;
+}
+.round_green_btn:hover{
+    background: rgb(22, 148, 36);
+    border-color: rgb(239, 44, 181);
+    color: white;
+}
+
+.red:hover{
+    background: rgb(248, 37, 37);
+    border-color: rgb(40, 213, 193);
+    color: white;
+}
+.green:hover{
+    background: rgb(13, 144, 105);
+    border-color: rgb(26, 13, 144);
+    color: white;
+}
+.btn_green{
+    background-color: rgb(174, 242, 250);
+}
+.btn_green:hover{
+    background-color: rgb(34, 80, 34);
+    color: aliceblue;
+    border-color: blue;
+}
+

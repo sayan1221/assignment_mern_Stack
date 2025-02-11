@@ -1,0 +1,56 @@
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    margin: 10px 0;
+  }
+  
+  .main_cointainer{
+    width: 95%;
+    margin: auto;
+  }
+  .slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .slide.active {
+    opacity: 1;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  .arrow.left {
+    left: 10px;
+  }
+  
+  .arrow.right {
+    right: 10px;
+  }
+  
+  .news_text{
+    margin: 300px 0 0 15%;
+    width: 170px;
+    height: 30px;
+    border-left: solid #d33232;
+    border-right: solid #d33232;
+    background: #ea8c34;
+    color: white;
+    border-radius: 15px;
+    border-radius: 0 15px 0 15px;
+    padding: 0 0 0 10px;
+  }
